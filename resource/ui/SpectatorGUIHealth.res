@@ -125,7 +125,7 @@
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
-		"font"			"DemiBold14"
+		"font"			"ralewaybold14"
 		"fgcolor"		"White"
 		
 	}
@@ -142,7 +142,7 @@
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
-		"font"			"DemiBold14"
+		"font"			"ralewaybold14"
 		"fgcolor"		"0 0 0 255"
 	}																
 }

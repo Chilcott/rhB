@@ -59,7 +59,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"ShadedBarThin"
-		"xpos"			"100"
+		"xpos"			"100" //100
 		"ypos"			"0"
 		"zpos"			"0"
 		"wide"			"50"
@@ -76,14 +76,14 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"ShadedBarThinLow"
-		"xpos"			"100"
+		"xpos"			"9999"
 		"ypos"			"0"
 		"zpos"			"0"
 		"wide"			"31"
 		"tall"			"14"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"alpha"			"0"
@@ -94,14 +94,14 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"ShadedBarThinBuff"
-		"xpos"			"100"
+		"xpos"			"99998"
 		"ypos"			"0"
 		"zpos"			"0"
 		"wide"			"50"
 		"tall"			"14"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"alpha"			"0"	
@@ -120,9 +120,9 @@
 		"visible"		"0"
 		"enabled"		"0"
 		"textAlignment"	"east"
-		"font"			""
+		"font"			"ralewaybold14"
 	}
-	"PlayerStatusHealthValueSTour"
+	"PlayerStatusHealthValueSTour" //health on ppl
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"PlayerStatusHealthValueSTour"
@@ -136,6 +136,6 @@
 		"labeltext"		"%Health%"
 		"textAlignment"		"center"
 		"fgcolor"			"32 32 32 255"
-		"font"			"Medium13"
+		"font"			"ralewaybold14"
       }								
 }

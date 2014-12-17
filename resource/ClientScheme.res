@@ -29,11 +29,11 @@ Scheme
 			"DamageStatic"		"234 234 234 255"
 
 		//Health Colors
-			"Buffedd"		"119 255 0 255" //Play with
-			"Buffed"		"0 156 255 255" //confusing
+			"Buffedd"		"119 255 0 255" //my green
+			"Buffed"		"0 156 255 255" //confusing blue
 			"BuffedColor"		"125 225 30 255" 
-			"hurtd"			"255 0 119 255" //Play with
-			"hurt"			"255 51 51 255" //confusing but just make numbers??
+			"hurtd"			"255 0 119 255" //my pink
+			"hurt"			"255 51 51 255" //confusing red
 			"LowColor"			"255 200 30 255" 
 
 		"OmpHPBuff"			"125 225 30 255" //Light green - Not putrid

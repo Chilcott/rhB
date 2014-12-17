@@ -217,7 +217,6 @@
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
-		//"font"			"DemiBold32"
 		"font"			"ralewayreg40"
 		"fgcolor"		"yellow"
 	}

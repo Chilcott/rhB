@@ -53,12 +53,12 @@
 				"ypos"        "0"
 				"zpos"        "-1000"
 				"wide"        "140"
-				"tall"        "13"
+				"tall"        "11"
 				"autoResize"		"0"
 				"pinCorner"		"0"
 				"fillcolor"		"32 32 32 255"
 				"alpha"			"255"
-				"visible"			"1"
+				"visible"			"1" //no BG for the spec HUD
 				"enabled"			"1"
 			}
 			"BGRight"
@@ -266,7 +266,7 @@
 				"ControlName"	"CExLabel"
 				"fieldName"	"respawntimeBG"
 				"font"		"BlocksSharp64"
-				"xpos"			"100"
+				"xpos"			"99"
 				"ypos"			"0"
 				"zpos"			"5"
 				"wide"			"31"
