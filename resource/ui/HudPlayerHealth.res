@@ -15,7 +15,7 @@
 		"enabled"		"1"	
 		"HealthBonusPosAdj"	"35"
 		"HealthDeathWarning"	"0.49"
-		"HealthDeathWarningColor"	"255 0 0 255"
+		"HealthDeathWarningColor"	"black"
 	}
 //
 //############################
@@ -192,17 +192,17 @@
 	}	
 	"PlayerStatusHealthBonusImage"
 	{
-		"ControlName"	"CExLabel"
+		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthBonusImage"
-		"xpos"			"999"	
-		"ypos"			"1270" 	
-		"zpos"			"1"
-		"wide"			"63"	
-		"tall"			"63"	
-		"visible"		"1"
+		"xpos"			"80-l"
+		"ypos"			"130"
+		"zpos"			"-4"
+		"wide"			"50"
+		"tall"			"55"
+		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/health_over_bg"
-		"scaleImage"	"1"
+		"scaleImage"	"1"	
 	}
 	"PlayerStatusHealthValue"
 	{
