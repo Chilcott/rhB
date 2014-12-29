@@ -5,9 +5,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"HudPlayerHealth"
-		//"xpos"			"c-284"		
 		"xpos"			"c-186"		
-		"ypos"			"r266"
+		"ypos"			"r267"
 		"zpos"			"4"
 		"wide"			"310"
 		"tall"			"222"
@@ -15,7 +14,7 @@
 		"enabled"		"1"	
 		"HealthBonusPosAdj"	"35"
 		"HealthDeathWarning"	"0.49"
-		"HealthDeathWarningColor"	"black"
+		"HealthDeathWarningColor"	"red"
 	}
 //
 //############################
@@ -218,7 +217,7 @@
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
 		"font"			"ralewayreg40"
-		"fgcolor"		"yellow"
+		"fgcolor"		"234 234 234 255"
 	}
 	"PlayerStatusHealthValueShadow"
 	{
@@ -234,7 +233,7 @@
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
 		"font"			"ralewayreg40"
-		"fgcolor"		"255 0 0 255"
+		"fgcolor"		"black"
 	}
 	"ShadedBar"
 	{

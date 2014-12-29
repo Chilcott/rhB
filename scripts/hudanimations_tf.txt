@@ -558,16 +558,18 @@ event HudTournamentSetupPanelClose
 
 event HudMedicCharged
 {
-    Animate ChargeLabelShadow             FgColor     "0 221 255 255"     Linear 0.0 0.0
-    Animate IndividualChargesLabel          FgColor     "0 221 255 255"     Linear 0.0 0.0
+    Animate ChargeLabelShadow             FgColor     "black"     Linear 0.0 0.0
+    Animate IndividualChargesLabel          FgColor     "black"     Linear 0.0 0.0
     Animate ShadedBarThinLow        Alpha       "0"     Linear 0.0 0.0
     Animate ShadedBarThinFull       Alpha       "255"       Linear 0.0 0.0
-    Animate ChargeMeter             FgColor     "0 221 255 255"     Linear 0.0 0.0
-    
-    Animate ChargeMeter1             FgColor     "0 221 255 255"     Linear 0.0 0.0
-    Animate ChargeMeter2             FgColor     "0 221 255 255"     Linear 0.0 0.0
-    Animate ChargeMeter3             FgColor     "0 221 255 255"     Linear 0.0 0.0
-    Animate ChargeMeter4             FgColor     "0 221 255 255"     Linear 0.0 0.0
+    Animate ChargeMeter             FgColor     "hurtd"     Linear 0.0 0.0
+	Animate ChargeLabel             FgColor     "hurtd"     Linear 0.0 0.0
+
+    Animate ChargeMeter1             FgColor     "hurtd"     Linear 0.0 0.0
+    Animate ChargeMeter2             FgColor     "hurtd"     Linear 0.0 0.0
+    Animate ChargeMeter3             FgColor     "hurtd"     Linear 0.0 0.0
+    Animate ChargeMeter4             FgColor     "hurtd"     Linear 0.0 0.0
+	Animate ChargeLabelchair         FgColor     "hurtd"     Linear 0.0 0.0
 
     RunEvent HudMedicChargedLoop    0.0
 }
@@ -595,7 +597,9 @@ event HudMedicChargedStop
     Animate IndividualChargesLabel          FgColor     "Black"      Linear 0.0 0.0001
     Animate ShadedBarThinLow        Alpha       "255"       Linear 0.0 0.0001
     Animate ShadedBarThinFull       Alpha       "0"     Linear 0.0 0.0001
-    Animate ChargeMeter             FgColor     "White"      Linear 0.0 0.0001
+    Animate ChargeMeter             FgColor     "Buffed"      Linear 0.0 0.0001
+	Animate ChargeLabel             FgColor     "white"      Linear 0.0 0.0001
+	Animate ChargeLabelchair        FgColor     "white"      Linear 0.0 0.0001
     
     Animate ChargeMeter1             FgColor     "255 255 255 255"     Linear 0.0 0.0
     Animate ChargeMeter2             FgColor     "255 255 255 255"     Linear 0.0 0.0

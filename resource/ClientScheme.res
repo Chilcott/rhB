@@ -34,7 +34,7 @@ Scheme
 			"BuffedColor"		"125 225 30 255" 
 			"hurtd"			"255 0 119 255" //my pink
 			"hurt"			"255 51 51 255" //confusing red
-			"LowColor"			"255 200 30 255" 
+			"LowColor"			"255 200 30 255" //red
 
 		"OmpHPBuff"			"125 225 30 255" //Light green - Not putrid
 		"OmpHPLow"			"255 200 30 255" //Yucky yellow
@@ -3984,6 +3984,16 @@ Scheme
 			{
 				"name"		"Raleway-Bold"
 				"tall"		"10"
+				"antialias" "1"
+				"additive"	"0"
+			}
+		}
+		ralewaybold15
+		{
+			"1"
+			{
+				"name"		"Raleway-Bold"
+				"tall"		"15
 				"antialias" "1"
 				"additive"	"0"
 			}

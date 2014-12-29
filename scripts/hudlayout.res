@@ -429,13 +429,26 @@
         "visible"       "1"
         "enabled"       "1"
         "xpos"          "0" 
-        "ypos"          "r152"
+        "ypos"          "r240"
         "wide"          "f0"
         "tall"          "f0"
         "MeterFG"       "White"
         "MeterBG"       "Gray"
     }
     
+	ChargeLabelchair
+    {
+        "fieldName"     "ChargeLabelchair"
+        "visible"       "1"
+        "enabled"       "1"
+        "xpos"          "400" 
+        "ypos"          "r0"
+        "wide"          "f0"
+        "tall"          "f0"
+        "MeterFG"       "White"
+        "MeterBG"       "Gray"
+    }
+	
     HudDemomanCharge
     {
         "fieldName"     "HudDemomanCharge"
