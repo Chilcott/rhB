@@ -35,7 +35,7 @@
 				"fieldName"   "BG"
 				"xpos"        "0"
 				"ypos"        "0"
-				"zpos"        "-2"
+				"zpos"        "-6"
 				"wide"        "55"
 				"tall"        "35"
 				"autoResize"		"0"

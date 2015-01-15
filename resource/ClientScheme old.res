@@ -27,26 +27,29 @@ Scheme
 		//Damage Colors
 			"DamageFloating"	"234 234 234 255"
 			"DamageStatic"		"234 234 234 255"
-			"hurtd"			"255 0 119 255" //my pink
-			"hurt"			"255 51 51 255" //confusing red
-			"LowColor"			"255 200 30 255" //Yellow
-			"OmpHPLow"			"255 200 30 255" //Yucky yellow
 
 		//Health Colors
 			"Buffedd"		"119 255 0 255" //my green
 			"Buffed"		"0 156 255 255" //confusing blue
 			"BuffedColor"		"125 225 30 255" 
-			"OmpHPBuff"			"125 225 30 255" //Light green
+			"hurtd"			"255 0 119 255" //my pink
+			"hurt"			"255 51 51 255" //confusing red
+			"LowColor"			"255 200 30 255" //Yellow
 
+		"OmpHPBuff"			"125 225 30 255" //Light green - Not putrid
+		"OmpHPLow"			"255 200 30 255" //Yucky yellow
+		
+		
+		
 		//
 		//######################
-		//#END OF CUSTIMIZATION#
+		//#END OF COSTUMIZATION#
 		//######################
 		//
 
 		// Base Colors 
 
-		"Orange"			"178 82 22 255"
+		"Orange"			"178 82 22 255" //tested
 		"OrangeDim"			"178 82 22 120"
 		"LightOrange"		"188 112 0 128"
 		"GoalOrange"		"255 133 0"
@@ -58,6 +61,8 @@ Scheme
 		"Blue"				"0 28 162 140"
 		"Yellow"			"251 235 202 255"
 		"TransparentYellow"	"251 235 202 140"
+		//"Black"				"0 0 0 255"
+		//Changed black to a NTSC safe color
 		"GreenSolid"		 "76 107 34 255"
 		
 		"Black"				"46 43 42 255"
@@ -113,6 +118,14 @@ Scheme
 		"ProgressOffWhite"	"251 235 202 255"
 		"ProgressBackground"	"250 234 201 51"
 		"HealthBgGrey"		"72 71 69 255"
+		
+		
+		"OmpHP"				"255 255 255 255"//white
+		"OmpHPBuff"			"125 225 30 255"
+		"OmpHPLow"			"255 200 30 255"
+		"OmpSpecHP"			"255 255 255 255" //white
+		"OmpSpecHPBuff"		"125 225 30 255" //light green
+		"OmpSpecHPLow"		"255 200 30 255"
 		
 		"ProgressOffWhiteTransparent"	"251 235 202 128"
 		
@@ -281,10 +294,10 @@ Scheme
 		ListPanel.SelectedOutOfFocusBgColor	"Red"
 		ListPanel.EmptyListInfoTextColor	"0 221 255 255"
 
-		Menu.TextColor					"255 255 255 255"
-		Menu.BgColor					"32 32 32 255"
-		Menu.ArmedTextColor				"32 32 32 255"
-		Menu.ArmedBgColor				"BuffedColor"
+		Menu.TextColor					"TanLight"
+		Menu.BgColor					"TransparentBlack"
+		Menu.ArmedTextColor				"TanDark"
+		Menu.ArmedBgColor				"TanLight"
 		Menu.TextInset					"6"
 
 		Chat.TypingText					"0 221 255 255"
@@ -3885,9 +3898,6 @@ Scheme
 				"additive"	"0"
 			}
 		}
-		//
-		//////////////////// rhB FONTS //////////////////////////////
-		//
 		ralewayreg10
 		{
 			"1"
@@ -3948,16 +3958,6 @@ Scheme
 				"additive"	"0"
 			}
 		}
-		ralewaybold10
-		{
-			"1"
-			{
-				"name"		"Raleway-Bold"
-				"tall"		"10"
-				"antialias" "1"
-				"additive"	"0"
-			}
-		}
 		ralewaybold14
 		{
 			"1"
@@ -3968,22 +3968,32 @@ Scheme
 				"additive"	"0"
 			}
 		}
-		ralewaybold15
-		{
-			"1"
-			{
-				"name"		"Raleway-Bold"
-				"tall"		"15"
-				"antialias" "1"
-				"additive"	"0"
-			}
-		}
 		ralewaybold16
 		{
 			"1"
 			{
 				"name"		"Raleway-Bold"
 				"tall"		"16"
+				"antialias" "1"
+				"additive"	"0"
+			}
+		}
+		ralewaybold10
+		{
+			"1"
+			{
+				"name"		"Raleway-Bold"
+				"tall"		"10"
+				"antialias" "1"
+				"additive"	"0"
+			}
+		}
+		ralewaybold15
+		{
+			"1"
+			{
+				"name"		"Raleway-Bold"
+				"tall"		"15
 				"antialias" "1"
 				"additive"	"0"
 			}
@@ -4018,7 +4028,6 @@ Scheme
 				"additive"	"0"
 			}
 		}
-
 	}
 
 	//

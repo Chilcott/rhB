@@ -1,10 +1,6 @@
 "Resource/HudLayout.res"
 {
-//
-//##########################################
-//IGNORE!! STUFF TO HELP ME MAKE BEST HUD EU
-//##########################################
-//
+
     "Helper1"
     {
         "ControlName"   "ImagePanel"
@@ -1687,5 +1683,720 @@
 		"wide"	"f0"
 		"tall"	"480"
 	}
+	// UBER TRACKING BAR /////////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////
+// Uber Counter
+/////////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////
+ 
+            // Uber Counter
+ 
+            "UberLabelinfo"
+            {
+                    "ControlName"   "CExLabel"
+                    "fieldName"             "UberLabelinfo"
+                    "font"                  "ralewayreg14"
+                    "labelText"             "Enemy"
+                    "fgcolor"               "255 255 255 255"
+                    "xpos"                  "c-70"
+                    "ypos"                  "c170"
+                    "wide"                  "100"
+                    "tall"                  "25"
+                    "visible"               "1"
+                    "enabled"               "1"
+                    "alpha"                 "0"
+            } 
+			"UberLabel"
+            {
+                    "ControlName"   "CExLabel"
+                    "fieldName"             "UberLabel"
+                    "font"                  "ralewayreg14"
+                    "labelText"             "Uber:      %"
+                    "fgcolor"               "255 255 255 255"
+                    "xpos"                  "c-25"
+                    "ypos"                  "c180"
+                    "wide"                  "100"
+                    "tall"                  "25"
+                    "visible"               "1"
+                    "enabled"               "1"
+                    "alpha"                 "0"
+            }
+           
+            "Uber10"
+            {
+                    "ControlName"   "CExLabel"
+                    "fieldName"             "Uber10"
+                    "font"                  "ralewayreg14"
+                    "labelText"             "1"
+                    "fgcolor"               "255 255 255 255"
+                    "xpos"                  "c+10"
+                    "ypos"                  "c180"
+                    "wide"                  "100"
+                    "tall"                  "25"
+                    "visible"               "1"
+                    "enabled"               "1"
+                    "alpha"                 "0"
+            }
+     
+            "Uber20"
+            {
+                    "ControlName"   "CExLabel"
+                    "fieldName"             "Uber20"
+                    "font"                  "ralewayreg14"
+                    "labelText"             "2"
+                    "fgcolor"               "255 255 255 255"
+                    "xpos"                  "c+10"
+                    "ypos"                  "c180"
+                    "wide"                  "100"
+                    "tall"                  "25"
+                    "visible"               "1"
+                    "enabled"               "1"
+                    "alpha"                 "0"
+            }
+           
+            "Uber30"
+            {
+                    "ControlName"   "CExLabel"
+                    "fieldName"             "Uber30"
+                    "font"                  "ralewayreg14"
+                    "labelText"             "3"
+                    "fgcolor"               "255 255 255 255"
+                    "xpos"                  "c+10"
+                    "ypos"                  "c180"
+                    "wide"                  "100"
+                    "tall"                  "25"
+                    "visible"               "1"
+                    "enabled"               "1"
+                    "alpha"                 "0"
+            }
+     
+            "Uber40"
+            {
+                    "ControlName"   "CExLabel"
+                    "fieldName"             "Uber40"
+                    "font"                  "ralewayreg14"
+                    "labelText"             "4"
+                    "fgcolor"               "255 255 255 255"
+                    "xpos"                  "c+10"
+                    "ypos"                  "c180"
+                    "wide"                  "100"
+                    "tall"                  "25"
+                    "visible"               "1"
+                    "enabled"               "1"
+                    "alpha"                 "0"
+            }
+           
+            "Uber50"
+            {
+                    "ControlName"   "CExLabel"
+                    "fieldName"             "Uber50"
+                    "font"                  "ralewayreg14"
+                    "labelText"             "5"
+                    "fgcolor"               "255 255 255 255"
+                    "xpos"                  "c+10"
+                    "ypos"                  "c180"
+                    "wide"                  "100"
+                    "tall"                  "25"
+                    "visible"               "1"
+                    "enabled"               "1"
+                    "alpha"                 "0"
+            }
+           
+            "Uber60"
+            {
+                    "ControlName"   "CExLabel"
+                    "fieldName"             "Uber60"
+                    "font"                  "ralewayreg14"
+                    "labelText"             "6"
+                    "fgcolor"               "255 255 255 255"
+                    "xpos"                  "c+10"
+                    "ypos"                  "c180"
+                    "wide"                  "100"
+                    "tall"                  "25"
+                    "visible"               "1"
+                    "enabled"               "1"
+                    "alpha"                 "0"
+            }
+           
+            "Uber70"
+            {
+                    "ControlName"   "CExLabel"
+                    "fieldName"             "Uber70"
+                    "font"                  "ralewayreg14"
+                    "labelText"             "7"
+                    "fgcolor"               "255 255 255 255"
+                    "xpos"                  "c+10"
+                    "ypos"                  "c180"
+                    "wide"                  "100"
+                    "tall"                  "25"
+                    "visible"               "1"
+                    "enabled"               "1"
+                    "alpha"                 "0"
+            }
+           
+            "Uber80"
+            {
+                    "ControlName"   "CExLabel"
+                    "fieldName"             "Uber80"
+                    "font"                  "ralewayreg14"
+                    "labelText"             "8"
+                    "fgcolor"               "255 255 255 255"
+                    "xpos"                  "c+10"
+                    "ypos"                  "c180"
+                    "wide"                  "100"
+                    "tall"                  "25"
+                    "visible"               "1"
+                    "enabled"               "1"
+                    "alpha"                 "0"
+            }
+           
+            "Uber90"
+            {
+                    "ControlName"   "CExLabel"
+                    "fieldName"             "Uber90"
+                    "font"                  "ralewayreg14"
+                    "labelText"             "9"
+                    "fgcolor"               "255 255 255 255"
+                    "xpos"                  "c+10"
+                    "ypos"                  "c180"
+                    "wide"                  "100"
+                    "tall"                  "25"
+                    "visible"               "1"
+                    "enabled"               "1"
+                    "alpha"                 "0"
+            }
+           
+            "Uber100"
+            {
+                    "ControlName"   "CExLabel"
+                    "fieldName"             "Uber100"
+                    "font"                  "ralewayreg14"
+                    "labelText"             "100"
+                    "fgcolor"               "255 255 255 255"
+                    "xpos"                  "c+10"
+                    "ypos"                  "c180"
+                    "wide"                  "100"
+                    "tall"                  "25"
+                    "visible"               "1"
+                    "enabled"               "1"
+                    "alpha"                 "0"
+            }
+           
+            "Uber0"
+            {
+                    "ControlName"   "CExLabel"
+                    "fieldName"             "Uber0"
+                    "font"                  "ralewayreg14"
+                    "labelText"             "0"
+                    "fgcolor"               "255 255 255 255"
+                    "xpos"                  "c+16"
+                    "ypos"                  "c180"
+                    "wide"                  "100"
+                    "tall"                  "25"
+                    "visible"               "1"
+                    "enabled"               "1"
+                    "alpha"                 "0"
+     
+            }
+           
+            "Uber1"
+            {
+                    "ControlName"   "CExLabel"
+                    "fieldName"             "Uber1"
+                    "font"                  "ralewayreg14"
+                    "labelText"             "1"
+                    "fgcolor"               "255 255 255 255"
+                    "xpos"                  "c+16"
+                    "ypos"                  "c180"
+                    "wide"                  "100"
+                    "tall"                  "25"
+                    "visible"               "1"
+                    "enabled"               "1"
+                    "alpha"                 "0"
+     
+            }
+           
+            "Uber2"
+            {
+                    "ControlName"   "CExLabel"
+                    "fieldName"             "Uber2"
+                    "font"                  "ralewayreg14"
+                    "labelText"             "2"
+                    "fgcolor"               "255 255 255 255"
+                    "xpos"                  "c+16"
+                    "ypos"                  "c180"
+                    "wide"                  "100"
+                    "tall"                  "25"
+                    "visible"               "1"
+                    "enabled"               "1"
+                    "alpha"                 "0"
+     
+            }
+           
+            "Uber3"
+            {
+                    "ControlName"   "CExLabel"
+                    "fieldName"             "Uber3"
+                    "font"                  "ralewayreg14"
+                    "labelText"             "3"
+                    "fgcolor"               "255 255 255 255"
+                    "xpos"                  "c+16"
+                    "ypos"                  "c180"
+                    "wide"                  "100"
+                    "tall"                  "25"
+                    "visible"               "1"
+                    "enabled"               "1"
+                    "alpha"                 "0"
+     
+            }
+           
+            "Uber4"
+            {
+                    "ControlName"   "CExLabel"
+                    "fieldName"             "Uber4"
+                    "font"                  "ralewayreg14"
+                    "labelText"             "4"
+                    "fgcolor"               "255 255 255 255"
+                    "xpos"                  "c+16"
+                    "ypos"                  "c180"
+                    "wide"                  "100"
+                    "tall"                  "25"
+                    "visible"               "1"
+                    "enabled"               "1"
+                    "alpha"                 "0"
+     
+            }
+           
+            "Uber5"
+            {
+                    "ControlName"   "CExLabel"
+                    "fieldName"             "Uber5"
+                    "font"                  "ralewayreg14"
+                    "labelText"             "5"
+                    "fgcolor"               "255 255 255 255"
+                    "xpos"                  "c+16"
+                    "ypos"                  "c180"
+                    "wide"                  "100"
+                    "tall"                  "25"
+                    "visible"               "1"
+                    "enabled"               "1"
+                    "alpha"                 "0"
+     
+            }
+           
+            "Uber6"
+            {
+                    "ControlName"   "CExLabel"
+                    "fieldName"             "Uber6"
+                    "font"                  "ralewayreg14"
+                    "labelText"             "6"
+                    "fgcolor"               "255 255 255 255"
+                    "xpos"                  "c+16"
+                    "ypos"                  "c180"
+                    "wide"                  "100"
+                    "tall"                  "25"
+                    "visible"               "1"
+                    "enabled"               "1"
+                    "alpha"                 "0"
+     
+            }
+           
+            "Uber7"
+            {
+                    "ControlName"   "CExLabel"
+                    "fieldName"             "Uber7"
+                    "font"                  "ralewayreg14"
+                    "labelText"             "7"
+                    "fgcolor"               "255 255 255 255"
+                    "xpos"                  "c+16"
+                    "ypos"                  "c180"
+                    "wide"                  "100"
+                    "tall"                  "25"
+                    "visible"               "1"
+                    "enabled"               "1"
+                    "alpha"                 "0"
+     
+            }
+           
+            "Uber8"
+            {
+                    "ControlName"   "CExLabel"
+                    "fieldName"             "Uber8"
+                    "font"                  "ralewayreg14"
+                    "labelText"             "8"
+                    "fgcolor"               "255 255 255 255"
+                    "xpos"                  "c+16"
+                    "ypos"                  "c180"
+                    "wide"                  "100"
+                    "tall"                  "25"
+                    "visible"               "1"
+                    "enabled"               "1"
+                    "alpha"                 "0"
+     
+            }
+           
+            "Uber9"
+            {
+                    "ControlName"   "CExLabel"
+                    "fieldName"             "Uber9"
+                    "font"                  "ralewayreg14"
+                    "labelText"             "9"
+                    "fgcolor"               "255 255 255 255"
+                    "xpos"                  "c+16"
+                    "ypos"                  "c180"
+                    "wide"                  "100"
+                    "tall"                  "25"
+                    "visible"               "1"
+                    "enabled"               "1"
+                    "alpha"                 "0"
+     
+            }
+           
+            "KritzLabel"
+            {
+                    "ControlName"   "CExLabel"
+                    "fieldName"             "KritzLabel"
+                    "font"                  "ralewayreg14"
+                    "labelText"             "Kritz:       %"
+                    "fgcolor"               "255 255 255 255"
+                    "xpos"                  "c-25"
+                    "ypos"                  "c165"
+                    "wide"                  "100"
+                    "tall"                  "25"
+                    "visible"               "1"
+                    "enabled"               "1"
+                    "alpha"                 "0"
+            }
+           
+            "Kritz10"
+            {
+                    "ControlName"   "CExLabel"
+                    "fieldName"             "Kritz10"
+                    "font"                  "ralewayreg14"
+                    "labelText"             "1"
+                    "fgcolor"               "255 255 255 255"
+                    "xpos"                  "c+10"
+                    "ypos"                  "c165"
+                    "wide"                  "100"
+                    "tall"                  "25"
+                    "visible"               "1"
+                    "enabled"               "1"
+                    "alpha"                 "0"
+            }
+     
+            "Kritz20"
+            {
+                    "ControlName"   "CExLabel"
+                    "fieldName"             "Kritz20"
+                    "font"                  "ralewayreg14"
+                    "labelText"             "2"
+                    "fgcolor"               "255 255 255 255"
+                    "xpos"                  "c+10"
+                    "ypos"                  "c165"
+                    "wide"                  "100"
+                    "tall"                  "25"
+                    "visible"               "1"
+                    "enabled"               "1"
+                    "alpha"                 "0"
+            }
+           
+            "Kritz30"
+            {
+                    "ControlName"   "CExLabel"
+                    "fieldName"             "Kritz30"
+                    "font"                  "ralewayreg14"
+                    "labelText"             "3"
+                    "fgcolor"               "255 255 255 255"
+                    "xpos"                  "c+10"
+                    "ypos"                  "c165"
+                    "wide"                  "100"
+                    "tall"                  "25"
+                    "visible"               "1"
+                    "enabled"               "1"
+                    "alpha"                 "0"
+            }
+     
+            "Kritz40"
+            {
+                    "ControlName"   "CExLabel"
+                    "fieldName"             "Kritz40"
+                    "font"                  "ralewayreg14"
+                    "labelText"             "4"
+                    "fgcolor"               "255 255 255 255"
+                    "xpos"                  "c+10"
+                    "ypos"                  "c165"
+                    "wide"                  "100"
+                    "tall"                  "25"
+                    "visible"               "1"
+                    "enabled"               "1"
+                    "alpha"                 "0"
+            }
+           
+            "Kritz50"
+            {
+                    "ControlName"   "CExLabel"
+                    "fieldName"             "Kritz50"
+                    "font"                  "ralewayreg14"
+                    "labelText"             "5"
+                    "fgcolor"               "255 255 255 255"
+                    "xpos"                  "c+10"
+                    "ypos"                  "c165"
+                    "wide"                  "100"
+                    "tall"                  "25"
+                    "visible"               "1"
+                    "enabled"               "1"
+                    "alpha"                 "0"
+            }
+           
+            "Kritz60"
+            {
+                    "ControlName"   "CExLabel"
+                    "fieldName"             "Kritz60"
+                    "font"                  "ralewayreg14"
+                    "labelText"             "6"
+                    "fgcolor"               "255 255 255 255"
+                    "xpos"                  "c+10"
+                    "ypos"                  "c165"
+                    "wide"                  "100"
+                    "tall"                  "25"
+                    "visible"               "1"
+                    "enabled"               "1"
+                    "alpha"                 "0"
+            }
+           
+            "Kritz70"
+            {
+                    "ControlName"   "CExLabel"
+                    "fieldName"             "Kritz70"
+                    "font"                  "ralewayreg14"
+                    "labelText"             "7"
+                    "fgcolor"               "255 255 255 255"
+                    "xpos"                  "c+10"
+                    "ypos"                  "c165"
+                    "wide"                  "100"
+                    "tall"                  "25"
+                    "visible"               "1"
+                    "enabled"               "1"
+                    "alpha"                 "0"
+            }
+           
+            "Kritz80"
+            {
+                    "ControlName"   "CExLabel"
+                    "fieldName"             "Kritz80"
+                    "font"                  "ralewayreg14"
+                    "labelText"             "8"
+                    "fgcolor"               "255 255 255 255"
+                    "xpos"                  "c+10"
+                    "ypos"                  "c165"
+                    "wide"                  "100"
+                    "tall"                  "25"
+                    "visible"               "1"
+                    "enabled"               "1"
+                    "alpha"                 "0"
+            }
+           
+            "Kritz90"
+            {
+                    "ControlName"   "CExLabel"
+                    "fieldName"             "Kritz90"
+                    "font"                  "ralewayreg14"
+                    "labelText"             "9"
+                    "fgcolor"               "255 255 255 255"
+                    "xpos"                  "c+10"
+                    "ypos"                  "c165"
+                    "wide"                  "100"
+                    "tall"                  "25"
+                    "visible"               "1"
+                    "enabled"               "1"
+                    "alpha"                 "0"
+            }
+           
+            "Kritz100"
+            {
+                    "ControlName"   "CExLabel"
+                    "fieldName"             "Kritz100"
+                    "font"                  "ralewayreg14"
+                    "labelText"             "100"
+                    "fgcolor"               "255 255 255 255"
+                    "xpos"                  "c+10"
+                    "ypos"                  "c165"
+                    "wide"                  "100"
+                    "tall"                  "25"
+                    "visible"               "1"
+                    "enabled"               "1"
+                    "alpha"                 "0"
+            }
+           
+            "Kritz0"
+            {
+                    "ControlName"   "CExLabel"
+                    "fieldName"             "Kritz0"
+                    "font"                  "ralewayreg14"
+                    "labelText"             "0"
+                    "fgcolor"               "255 255 255 255"
+                    "xpos"                  "c+16"
+                    "ypos"                  "c165"
+                    "wide"                  "100"
+                    "tall"                  "25"
+                    "visible"               "1"
+                    "enabled"               "1"
+                    "alpha"                 "0"
+     
+            }
+           
+            "Kritz1"
+            {
+                    "ControlName"   "CExLabel"
+                    "fieldName"             "Kritz1"
+                    "font"                  "ralewayreg14"
+                    "labelText"             "1"
+                    "fgcolor"               "255 255 255 255"
+                    "xpos"                  "c+16"
+                    "ypos"                  "c165"
+                    "wide"                  "100"
+                    "tall"                  "25"
+                    "visible"               "1"
+                    "enabled"               "1"
+                    "alpha"                 "0"
+     
+            }
+           
+            "Kritz2"
+            {
+                    "ControlName"   "CExLabel"
+                    "fieldName"             "Kritz2"
+                    "font"                  "ralewayreg14"
+                    "labelText"             "2"
+                    "fgcolor"               "255 255 255 255"
+                    "xpos"                  "c+16"
+                    "ypos"                  "c165"
+                    "wide"                  "100"
+                    "tall"                  "25"
+                    "visible"               "1"
+                    "enabled"               "1"
+                    "alpha"                 "0"
+     
+            }
+           
+            "Kritz3"
+            {
+                    "ControlName"   "CExLabel"
+                    "fieldName"             "Kritz3"
+                    "font"                  "ralewayreg14"
+                    "labelText"             "3"
+                    "fgcolor"               "255 255 255 255"
+                    "xpos"                  "c+16"
+                    "ypos"                  "c165"
+                    "wide"                  "100"
+                    "tall"                  "25"
+                    "visible"               "1"
+                    "enabled"               "1"
+                    "alpha"                 "0"
+     
+            }
+           
+            "Kritz4"
+            {
+                    "ControlName"   "CExLabel"
+                    "fieldName"             "Kritz4"
+                    "font"                  "ralewayreg14"
+                    "labelText"             "4"
+                    "fgcolor"               "255 255 255 255"
+                    "xpos"                  "c+16"
+                    "ypos"                  "c165"
+                    "wide"                  "100"
+                    "tall"                  "25"
+                    "visible"               "1"
+                    "enabled"               "1"
+                    "alpha"                 "0"
+     
+            }
+           
+            "Kritz5"
+            {
+                    "ControlName"   "CExLabel"
+                    "fieldName"             "Kritz5"
+                    "font"                  "ralewayreg14"
+                    "labelText"             "5"
+                    "fgcolor"               "255 255 255 255"
+                    "xpos"                  "c+16"
+                    "ypos"                  "c165"
+                    "wide"                  "100"
+                    "tall"                  "25"
+                    "visible"               "1"
+                    "enabled"               "1"
+                    "alpha"                 "0"
+     
+            }
+           
+            "Kritz6"
+            {
+                    "ControlName"   "CExLabel"
+                    "fieldName"             "Kritz6"
+                    "font"                  "ralewayreg14"
+                    "labelText"             "6"
+                    "fgcolor"               "255 255 255 255"
+                    "xpos"                  "c+16"
+                    "ypos"                  "c165"
+                    "wide"                  "100"
+                    "tall"                  "25"
+                    "visible"               "1"
+                    "enabled"               "1"
+                    "alpha"                 "0"
+     
+            }
+           
+            "Kritz7"
+            {
+                    "ControlName"   "CExLabel"
+                    "fieldName"             "Kritz7"
+                    "font"                  "ralewayreg14"
+                    "labelText"             "7"
+                    "fgcolor"               "255 255 255 255"
+                    "xpos"                  "c+16"
+                    "ypos"                  "c165"
+                    "wide"                  "100"
+                    "tall"                  "25"
+                    "visible"               "1"
+                    "enabled"               "1"
+                    "alpha"                 "0"
+     
+            }
+           
+            "Kritz8"
+            {
+                    "ControlName"   "CExLabel"
+                    "fieldName"             "Kritz8"
+                    "font"                  "ralewayreg14"
+                    "labelText"             "8"
+                    "fgcolor"               "255 255 255 255"
+                    "xpos"                  "c+16"
+                    "ypos"                  "c165"
+                    "wide"                  "100"
+                    "tall"                  "25"
+                    "visible"               "1"
+                    "enabled"               "1"
+                    "alpha"                 "0"
+     
+            }
+           
+            "Kritz9"
+            {
+                    "ControlName"   "CExLabel"
+                    "fieldName"             "Kritz9"
+                    "font"                  "ralewayreg14"
+                    "labelText"             "9"
+                    "fgcolor"               "255 255 255 255"
+                    "xpos"                  "c+16"
+                    "ypos"                  "c165"
+                    "wide"                  "100"
+                    "tall"                  "25"
+                    "visible"               "1"
+                    "enabled"               "1"
+                    "alpha"                 "0"
+     
+            }
+     
 }
 

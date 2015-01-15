@@ -22,7 +22,7 @@
 		
 		"playerpanels_kv"
 		{
-			"visible"		"0"
+			"visible"		"1"
 			"wide"			"130"
 			"tall"			"14"
 			"zpos"			"-100"
@@ -30,7 +30,7 @@
 			"color_ready"	"0 255 0 220"
 			"color_notready"	"0 0 0 220"
 
-			"BGLeft"
+			"BGLeft" //Class icon
 			{
 				"ControlName" "ImagePanel"
 				"fieldName"   "BGLeft"
@@ -58,23 +58,24 @@
 				"pinCorner"		"0"
 				"fillcolor"		"32 32 32 255"
 				"alpha"			"255"
-				"visible"			"1" //no BG for the spec HUD
+				"visible"			"0" //Black overlay for the spec HUD
 				"enabled"			"1"
+				
 			}
-			"BGRight"
+			"BGRight" //class icons and start of names
 			{
 				"ControlName" "ImagePanel"
 				"fieldName"   "BGRight"
-				"xpos"        "99"
+				"xpos"        "1"
 				"ypos"        "0"
-				"zpos"        "1"
+				"zpos"        "-9"
 				"wide"        "31"
 				"tall"        "14"
 				"autoResize"		"0"
 				"pinCorner"		"0"
-				"fillcolor"		"0 0 0 0"
+				"fillcolor"		"200 0 0 255"
 				"alpha"			"255"
-				"visible"			"1"
+				"visible"			"0"
 				"enabled"			"1"
 			}
 			"BorderUp"
@@ -163,7 +164,7 @@
 				"tall"			"18"
 				"visible"		"0"
 				"enabled"		"1"
-				"bgcolor_override"		"Black"
+				"bgcolor_override"		"gray"
 				"PaintBackgroundType"	"0"
 				
 				if_mvm
@@ -184,7 +185,7 @@
 				"visible"			"1"
 				"enabled"			"1"	
 				"HealthBonusPosAdj"	"10"
-				"HealthDeathWarning"		"0.49"
+				"HealthDeathWarning"		"0.5"
 				"TFFont"					"HudFontSmallest"
 				"HealthDeathWarningColor"	"HUDDeathWarning"
 				"TextColor"					"HudOffWhite"
@@ -197,12 +198,12 @@
 				"xpos"			"30"
 				"ypos"			"6"
 				"zpos"			"-1"
-				"wide"			"16"
-				"tall"			"16"
+				"wide"			"50"
+				"tall"			"50"
 				"autoResize"	"0"
 				"pinCorner"		"0"
 				"visible"		"0"
-				"enabled"		"1"
+				"enabled"		"0"
 				"image"			"../HUD/tournament_panel_brown"
 
 				"src_corner_height"	"22"				// pixels inside the image
