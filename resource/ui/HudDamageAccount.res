@@ -6,8 +6,8 @@
 		"text_x"				"0"
 		"text_y"				"0"
 		"delta_item_end_y"		"0"
-		"PositiveColor"			"0 221 255 255"
-		"NegativeColor"			"White"
+		"PositiveColor"			"HealingNumbers" //Heal
+		"NegativeColor"			"DamageNumbers" //Damage
 		"delta_lifetime"		"2.5"
 
 		//NO OUTLINE ON NUMBERS

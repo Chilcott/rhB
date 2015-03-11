@@ -2,7 +2,12 @@
 {
 	"Credits"
 	{
-		"label" "rhB HUD v1.4.3 | Modified by rhK"
+		"label" "rhB HUD v1.4.4"
+		"command" "engine showconsole; clear"
+	}
+	"Credits2"
+	{
+		"label" "Modified by rhK"
 		"command" "engine showconsole; clear"
 	}
 	"FavoriteServer"

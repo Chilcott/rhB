@@ -18,12 +18,7 @@ Scheme
 	//////////////////////// COLORS ///////////////////////////
 	Colors
 	{
-		//
-		//########################
-		//#HUDAS ISCARIOTE COLORS#
-		//########################
-		//
-
+		
 		//Damage Colors
 			"DamageFloating"	"234 234 234 255"
 			"DamageStatic"		"234 234 234 255"
@@ -31,19 +26,16 @@ Scheme
 			"hurt"			"255 51 51 255" //confusing red
 			"LowColor"			"255 200 30 255" //Yellow
 			"OmpHPLow"			"255 200 30 255" //Yucky yellow
+			"DamageNumbers"		"255 255 0 255"
 
 		//Health Colors
 			"Buffedd"		"119 255 0 255" //my green
 			"Buffed"		"0 156 255 255" //confusing blue
 			"BuffedColor"		"125 225 30 255" 
 			"OmpHPBuff"			"125 225 30 255" //Light green
+			"HealingNumbers"	"0 255 127 255"
 
-		//
-		//######################
-		//#END OF CUSTIMIZATION#
-		//######################
-		//
-
+		
 		// Base Colors 
 
 		"Orange"			"178 82 22 255"
@@ -3888,6 +3880,116 @@ Scheme
 		//
 		//////////////////// rhB FONTS //////////////////////////////
 		//
+		"latoreg10"
+		{
+			"1"
+			{
+				"name"		"lato regular"
+				"tall"		"10"
+				"antialias" "1"
+				"additive"	"0"
+			}
+		}	
+		"latoreg12"
+		{
+			"1"
+			{
+				"name"		"lato regular"
+				"tall"		"12"
+				"antialias" "1"
+				"additive"	"0"
+			}
+		}
+		"latoreg14"
+		{
+			"1"
+			{
+				"name"		"lato regular"
+				"tall"		"14"
+				"antialias" "1"
+				"additive"	"0"
+			}
+		}
+		"latoreg16"
+		{
+			"1"
+			{
+				"name"		"lato regular"
+				"tall"		"16"
+				"antialias" "1"
+				"additive"	"0"
+			}
+		}
+		"latoreg18"
+		{
+			"1"
+			{
+				"name"		"lato regular"
+				"tall"		"18"
+				"antialias" "1"
+				"additive"	"0"
+			}
+		}
+		"latoreg20"
+		{
+			"1"
+			{
+				"name"		"lato regular"
+				"tall"		"20"
+				"antialias" "1"
+				"additive"	"0"
+			}
+		}
+		"latoreg22"
+		{
+			"1"
+			{
+				"name"		"lato regular"
+				"tall"		"22"
+				"antialias" "1"
+				"additive"	"0"
+			}
+		}
+		"latobold10"
+		{
+			"1"
+			{
+				"name"		"lato bold"
+				"tall"		"10"
+				"antialias" "1"
+				"additive"	"0"
+			}
+		}
+		"latobold12"
+		{
+			"1"
+			{
+				"name"		"lato bold"
+				"tall"		"12"
+				"antialias" "1"
+				"additive"	"0"
+			}
+		}
+		"latobold14"
+		{
+			"1"
+			{
+				"name"		"lato bold"
+				"tall"		"14"
+				"antialias" "1"
+				"additive"	"0"
+			}
+		}
+		"latobold16"
+		{
+			"1"
+			{
+				"name"		"lato bold"
+				"tall"		"16"
+				"antialias" "1"
+				"additive"	"0"
+			}
+		}
 		ralewayreg10
 		{
 			"1"
@@ -5799,6 +5901,26 @@ Scheme
 		{
 		"font" "resource/font/Garm3nFont.ttf"
 		"name" "Garm3nFont"
+		}
+		"21" 
+		{
+			"font" "resource/font/lato-black.ttf"
+			"name" "Lato Black"
+		}	
+		"22" 
+		{
+			"font" "resource/font/lato-bold.ttf"
+			"name" "Lato Bold"
+		}
+		"23" 
+		{
+			"font" "resource/font/lato-light.ttf"
+			"name" "Lato-light"
+		}
+		"24" 
+		{
+			"font" "resource/font/lato-regular.ttf"
+			"name" "Lato Regular"
 		}
 	}
 }
