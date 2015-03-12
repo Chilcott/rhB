@@ -2,7 +2,7 @@
 {
 	"Credits"
 	{
-		"label" "rhB HUD v1.4.4"
+		"label" "rhB HUD v1.4.5"
 		"command" "engine showconsole; clear"
 	}
 	"Credits2"

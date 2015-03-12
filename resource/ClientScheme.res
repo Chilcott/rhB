@@ -3990,6 +3990,66 @@ Scheme
 				"additive"	"0"
 			}
 		}
+		"latobold28"
+		{
+			"1"
+			{
+				"name"		"lato bold"
+				"tall"		"28"
+				"antialias" "1"
+				"additive"	"0"
+			}
+		}
+		"latobold30"
+		{
+			"1"
+			{
+				"name"		"lato bold"
+				"tall"		"30"
+				"antialias" "1"
+				"additive"	"0"
+			}
+		}
+		"latobold32"
+		{
+			"1"
+			{
+				"name"		"lato bold"
+				"tall"		"32"
+				"antialias" "1"
+				"additive"	"0"
+			}
+		}
+		"latobold38"
+		{
+			"1"
+			{
+				"name"		"lato bold"
+				"tall"		"38"
+				"antialias" "1"
+				"additive"	"0"
+			}
+		}
+		"latobold40"
+		{
+			"1"
+			{
+				"name"		"lato bold"
+				"tall"		"40"
+				"antialias" "1"
+				"additive"	"0"
+			}
+		}
+		"latobold42"
+		{
+			"1"
+			{
+				"name"		"lato bold"
+				"tall"		"42"
+				"antialias" "1"
+				"additive"	"0"
+			}
+		}
 		ralewayreg10
 		{
 			"1"

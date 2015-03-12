@@ -216,7 +216,7 @@
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
-		"font"			"latobold42"
+		"font"			"ralewayreg40"
 		"fgcolor"		"234 234 234 255"
 	}
 	"PlayerStatusHealthValueShadow"
@@ -232,7 +232,7 @@
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
-		"font"			"latobold42"
+		"font"			"ralewayreg40"
 		"fgcolor"		"black"
 	}
 	"ShadedBar"
