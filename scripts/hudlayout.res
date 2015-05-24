@@ -37,9 +37,42 @@
     }
 //
 //###################
-//#QUARTZ CROSSHAIRS#
+//#Custom CROSSHAIRS#
 //###################
 //
+
+  CrossHairNormal
+  {
+    "controlName"  "CExLabel"
+    "fieldName"     "CrossHairNormal"
+    "visible"    "0" //Seeker's Crosshair
+    "enabled"    "1"
+    "zpos"      "1"
+    "xpos"      "c-14"
+    "ypos"      "c-12"
+    "wide"      "24"
+    "tall"      "24"
+    "font"      "CrossHairNormal"
+    "labelText"    "x"
+    "fgcolor"    "235 226 202 255"
+    "textAlignment"  "center"
+  }
+  	"xHair"
+	{
+		"controlName"	"CExLabel"
+		"fieldName"	 	"xHair" //Fluxhud changeover (for Yui)
+		"visible"		"0"
+		"enabled"		"1"
+		"zpos"			"1"
+		"xpos"			"c-10"
+		"ypos"			"c-10"
+		"wide"			"20"
+		"tall"			"20"
+		"font"			"xHair"
+		"fgcolor"		"255 255 255 255"
+		"labelText"		"+"
+		"textAlignment"	"center"
+	}
     QuartzxHair //You should activate both ;)
     {
         "ControlName"   "ImagePanel"
@@ -52,7 +85,7 @@
         "autoResize"    "0"
         "pinCorner"     "0"
         "visible"       "0"
-        "enabled"       "1"
+        "enabled"       "0"
         "fillcolor"     "255 255 255 255"
         "alpha" "255"
     }
@@ -246,11 +279,11 @@
         // "fogCrosshairSmooth"   - Antialiased, not outlined
         
 
-        "labeltext" "n"
+        "labeltext" "v" //for pics https://dl.dropboxusercontent.com/u/21833101/crosshairsv3.png
         //
         // Choose your crosshair
         // 
-        // Change the "1" to represent the crosshair you want displayed in the Crosshairs.jpg
+        // Change the "1" to represent the crosshair you want
 
         "textAlignment" "center"
         
@@ -287,22 +320,6 @@
         "textAlignment" "center"    
         "fgcolor"    "255 255 255 255"
 
-    }
-    "CrossHairNormal"
-    {
-        "controlName"   "CExLabel"
-        "fieldName"     "CrossHairNormal"
-        "visible"       "0"
-        "enabled"       "1"
-        "zpos"          "1"
-        "xpos"          "c-12"
-        "ypos"          "c-15"
-        "wide"          "24"
-        "tall"          "25"
-        "font"          "CrossHairNormal"
-        "labelText"     "+"
-        "fgcolor"       "65 235 0 255"
-        "textAlignment" "center"
     }
 
     "CrossHairRequest"

@@ -697,6 +697,18 @@ Scheme
 			"outline"	"1"
 			}
 		}
+		"CrossHairNormal"
+		{
+			"1"
+			{
+			"name"    "tf2cross"
+			"tall"    "11"
+			"weight"  "0"
+			"antialias"  "1"
+			"additive"  "0"
+			"outline"   "1"
+			}
+		}
 		fogCrosshair
 		{
 			"1"
@@ -2420,18 +2432,6 @@ Scheme
 			}
 		}
 
-		"CrossHairNormal"
-		{
-			"1"
-			{
-				"name"		"Symbol"
-				"tall"		"28"
-				"weight"	"0"
-				"additive"	"0"
-				"outline" "1"
-			}
-		}
-
 		"CrossHairRequest"
 		{
 			"1"
@@ -2501,7 +2501,19 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-
+		
+		"xHair"
+		{
+			"1"
+			{
+				"name"		"Courier"
+				"tall"		"12"
+				"weight"	"1"
+				"additive"	"0"
+				"outline" "1"			
+			}
+		}
+			
 		"xHairDotOutline"
 		{
 			"1"
@@ -5981,6 +5993,11 @@ Scheme
 		{
 			"font" "resource/font/lato-regular.ttf"
 			"name" "Lato Regular"
+		}
+		"25"
+		{
+         "font"     "resource/font/tf2cross.ttf"
+         "name"     "tf2crossRegular"
 		}
 	}
 }
