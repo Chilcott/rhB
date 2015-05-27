@@ -382,15 +382,15 @@
 		}
 		if_halloween_1
 		{
-			"image"		"../console/background_2fort"
+			"image"		"../console/background_mvm"
 		}
 		if_fullmoon
 		{
-			"image"		"../console/background_2fort"
+			"image"		"../console/background_gravelpit"
 		}
 		if_christmas
 		{
-			"image"		"../console/background_2fort"
+			"image"		"../console/background_upward"
 		}
 	}
 
@@ -2807,7 +2807,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"AchievementsButton"
-		"xpos"			"81"
+		"xpos"			"90"
 		"ypos"			"370"
 		"zpos"			"3"
 		"wide"			"20"

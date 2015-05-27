@@ -3892,6 +3892,30 @@ Scheme
 		//
 		//////////////////// rhB FONTS //////////////////////////////
 		//
+		"FluxFontHudDamage"
+		{
+			"1"
+			{
+				"name"		"Museo Sans Cyrl 500"
+				"tall"		"26"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+				"outline"	"1"
+			}
+		}
+		"FluxFontHudDamage2"
+		{
+			"1"
+			{
+				"name"		"Museo Sans Cyrl 500"
+				"tall"		"31"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+				"outline"	"1"
+			}
+		}
 		"latoreg10"
 		{
 			"1"
@@ -5998,6 +6022,21 @@ Scheme
 		{
          "font"     "resource/font/tf2cross.ttf"
          "name"     "tf2crossRegular"
+		}
+		"26"
+		{
+			"font" "resource/font/MuseoSansCyrl-500.otf"
+			"name" "Museo Sans Cyrl 500"
+		}
+		"27"
+		{
+			"font" "resource/font/raleway-bold.otf"
+			"name" "Raleway-Bold"
+		}
+		"28"
+		{
+			"font" "resource/font/raleway-bold.otf"
+			"name" "Raleway-Regular"
 		}
 	}
 }

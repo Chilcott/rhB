@@ -7,16 +7,11 @@
 		"text_y"				"0"
 		"delta_item_end_y"		"0"
 		"PositiveColor"			"HealingNumbers" //Heal
-		"NegativeColor"			"DamageNumbers" //Damage
+		"NegativeColor"			"white" //Damage
 		"delta_lifetime"		"2.5"
 
-		//NO OUTLINE ON NUMBERS
-			"delta_item_font"	"Medium20"
-			"delta_item_font_big"	"Medium22"
-
-		//OUTLINE ON NUMBERS (remove the //'s on the next 2 lines to enable)
-		//	"delta_item_font"	"Medium20Outline"
-		//	"delta_item_font_big"	"Medium20Outline"
+			"delta_item_font"	"FluxFontHudDamage"
+			"delta_item_font_big"	"FluxFontHudDamage"
 	}
 
 	"DamageAccountValue"
@@ -34,7 +29,7 @@
 		"delta_lifetime"		"10.0"
 		"textAlignment"	"center"
 		"fgcolor"		"White"
-		"font"			"DemiBold20"
+		"font"			"FluxFontHudDamage"
 	}	
 
 	"DamageAccountValueShadow"
@@ -52,6 +47,6 @@
 		"delta_lifetime"		"10.0"
 		"textAlignment"	"center"
 		"fgcolor"		"Black"
-		"font"			"DemiBold20"
+		"font"			"FluxFontHudDamage"
 	}	
 }
