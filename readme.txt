@@ -5,3 +5,5 @@ TO use the uber/krits counting mod, rename hudanimations_tf UBER COUNT.txt to hu
 alias +uber_counter "voice_menu_1"
 alias -uber_counter "voice_menu_1"
 bind shift +uber_counter
+
+Go through Hudlayout.res and enable any xhairs you want.

@@ -2507,7 +2507,7 @@ Scheme
 			"1"
 			{
 				"name"		"Courier"
-				"tall"		"12"
+				"tall"		"14" //increase to ~30 until it starts to crop
 				"weight"	"1"
 				"additive"	"0"
 				"outline" "1"			

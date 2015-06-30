@@ -1,40 +1,5 @@
 "Resource/HudLayout.res"
 {
-
-    "Helper1"
-    {
-        "ControlName"   "ImagePanel"
-        "fieldName"     "Helper1"
-        "xpos"          "c-148"
-        "ypos"          "0"
-        "zpos"          "10111100"
-        "wide"          "1"
-        "tall"          "f0"
-        "autoResize"    "0"
-        "pinCorner"     "0"
-        "visible"       "0"
-        "enabled"       "1"
-        "tabPosition"   "0"
-        "fillcolor"     "255 0 255 193"
-        "PaintBackgroundType"   "0"
-    }
-    "Helper2"
-    {
-        "ControlName"   "ImagePanel"
-        "fieldName"     "Helper2"
-        "xpos"          "0"
-        "ypos"          "c91"
-        "zpos"          "1000"
-        "wide"          "f0"
-        "tall"          "1"
-        "autoResize"    "0"
-        "pinCorner"     "0"
-        "visible"       "0"
-        "enabled"       "1"
-        "tabPosition"   "0"
-        "fillcolor"     "255 0 255 123"
-        "PaintBackgroundType"   "0"
-    }
 //
 //###################
 //#Custom CROSSHAIRS#
@@ -45,7 +10,7 @@
   {
     "controlName"  "CExLabel"
     "fieldName"     "CrossHairNormal"
-    "visible"    "0" //Seeker's Crosshair
+    "visible"    "1" //Seeker's Crosshair with outline
     "enabled"    "1"
     "zpos"      "1"
     "xpos"      "c-14"
@@ -820,27 +785,29 @@
         "fieldName" "HudDeathNotice"
         "visible" "1"
         "enabled" "1"
-        "xpos"   "r640" 
-        "ypos"   "17"   
+        "xpos"   "120" //r540 335
+        "ypos"   "35"   
         "wide"   "628"
         "tall"   "468"
 
-        "MaxDeathNotices" "12"
+        "MaxDeathNotices" "6"
         "IconScale"   "0.35"
         "LineHeight"      "14"
         "LineSpacing"     "1"
         "CornerRadius"    "0"
         "RightJustify"    "1"   // If 1, draw notices from the right
         
-        "TextFont"      "Museo10"
+        "TextFont"      "latoreg12"
         
-        "TeamBlue"      "72 107 160 255"
-        "TeamRed"       "210 55 56 255"
+        "TeamBlue"      "0 100 240 255"
+        "TeamRed"       "240 40 0 255"        
+		//"TeamBlue"      "72 107 160 255"
+        //"TeamRed"       "210 55 56 255"
         "IconColor"     "255 255 255 255"
         "LocalPlayerColor"  "32 32 32 255"
 
         "BaseBackgroundColor"   "0 0 0 200"      
-        "LocalBackgroundColor"  "255 255 255 255"   
+        "LocalBackgroundColor"  "255 255 240 255"   
     }
 
     HudVehicle
