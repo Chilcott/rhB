@@ -126,7 +126,7 @@
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
 		"font"			"DemiBold16"
-		"fgcolor"		"White"
+		"fgcolor"		"255 255 255 255"
 	}
 	"PlayerStatusHealthValueSpecShadow"
 	{
@@ -142,7 +142,7 @@
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
 		"font"			"DemiBold16"
-		"fgcolor"		"Black"
+		"fgcolor"		"0 0 0 255"
 	}										
 	"HealthValueShadow"
 	{
@@ -153,7 +153,7 @@
 		"zpos"			"4"
 		"wide"			"76"
 		"tall"			"26"
-		"visible"		"0"
+		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"east"	
