@@ -3953,5 +3953,420 @@
 			}				
 		}		
 	}
+	
+	"EventPromo"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldname"		"EventPromo"
+		"xpos"			"c-250"
+		"ypos"			"-275"
+		"zpos"			"-60"
+		"wide"			"320"
+		"tall"			"f0"
+		"visible"		"1"
+		"PaintBackgroundType"	"0"
+
+			
+		"EventImage"
+		{
+			"ControlName"			"ImagePanel"
+			"fieldName"				"EventImage"
+			"xpos"					"cs-0.5"
+			"ypos"					"50"
+			"zpos"					"-1"
+			"wide"					"p0.9"
+			"tall"					"o1"
+			"visible"				"0"
+			"enabled"				"0"
+			"image"					"menu_background_eotl_duck"
+			"scaleImage"			"1"
+			"proportionaltoparent"	"1"
+		}	
+
+
+		"Background"
+		{
+			"ControlName"	"EditablePanel"
+			"fieldname"		"Background"
+			"xpos"			"cs-0.5"
+			"ypos"			"300"
+			"zpos"			"0"
+			"wide"			"p0.8"
+			"tall"			"120"
+			"visible"		"1"
+			"PaintBackgroundType"	"1"
+			"proportionaltoparent"	"1"
+
+			"paintborder"	"1"
+			"border"		"CyanBorderThick"
+			"bgcolor_override" "25 25 25 255"
+			
+
+			"OperationTitleLabel"
+			{
+				"ControlName"	"CExLabel"
+				"fieldName"		"OperationTitleLabel"
+				"font"			"BigNoodleTitling24"
+				"labelText"		"#MMenu_Update"
+				"textAlignment"	"west"
+				"xpos"			"0"
+				"ypos"			"0"
+				"wide"			"f0"
+				"tall"			"30"
+				"autoResize"	"0"
+				"pinCorner"		"0"
+				"visible"		"1"
+				"enabled"		"1"
+				"textinsetx"	"20"
+				"fgcolor_override"	"235 227 203 255"
+			}
+
+			"ViewDetailsButton"
+			{
+				"ControlName"	"EditablePanel"
+				"fieldname"		"ViewDetailsButton"
+				"xpos"			"p0.02"
+				"ypos"			"27"
+				"zpos"			"11"
+				"wide"			"p0.48"
+				"tall"			"26"
+				"visible"		"1"
+				"PaintBackgroundType"	"0"
+				"proportionaltoparent"	"1"
+
+				"SubButton"
+				{
+					"ControlName"	"CExImageButton"
+					"fieldName"		"SubButton"
+					"xpos"			"cs-0.5"
+					"ypos"			"0"
+					"wide"			"f0"
+					"tall"			"f0"
+					"autoResize"	"0"
+					"pinCorner"		"3"
+					"visible"		"1"
+					"enabled"		"1"
+					"tabPosition"	"0"
+					"use_proportional_insets" "1"
+					"font"			"HudFontSmallBold"
+					"textAlignment"	"center"
+					"dulltext"		"0"
+					"brighttext"	"0"
+					"default"		"1"
+					"sound_depressed"	"UI/buttonclick.wav"
+					"sound_released"	"UI/buttonclickrelease.wav"
+					"labeltext"		"#MMenu_ViewUpdateDetails"
+					"proportionaltoparent"	"1"
+					"command"		"view_update_page"
+					"actionsignallevel"	"4"
+			
+					"defaultBgColor_override"	"15 15 15 255"
+					"armedBgColor_override"		"25 25 25 255"
+					"depressedBgColor_override"	"25 25 25 255"
+					"defaultFgColor_override"	"TanLight"
+					"armedFgColor_override" 	"TanLight"
+					"depressedFgColor_override" "TanLight"
+					"border_default"			"ButtonHover"
+					"border_armed"				"ButtonHover"
+					"paintbackground"			"1"
+				}
+			}
+			
+			"ViewComicButton"
+			{
+				"ControlName"	"EditablePanel"
+				"fieldname"		"ViewComicButton"
+				"xpos"			"p0.5"
+				"ypos"			"27"
+				"zpos"			"11"
+				"wide"			"p0.48"
+				"tall"			"26"
+				"visible"		"1"
+				"PaintBackgroundType"	"0"
+				"proportionaltoparent"	"1"
+
+				"SubButton"
+				{
+					"ControlName"	"CExImageButton"
+					"fieldName"		"SubButton"
+					"xpos"			"cs-0.5"
+					"ypos"			"0"
+					"wide"			"f0"
+					"tall"			"f0"
+					"autoResize"	"0"
+					"pinCorner"		"3"
+					"visible"		"1"
+					"enabled"		"1"
+					"tabPosition"	"0"
+					"use_proportional_insets" "1"
+					"font"			"HudFontSmallBold"
+					"textAlignment"	"center"
+					"dulltext"		"0"
+					"brighttext"	"0"
+					"default"		"1"
+					"sound_depressed"	"UI/buttonclick.wav"
+					"sound_released"	"UI/buttonclickrelease.wav"
+					"labeltext"		"#MMenu_ViewUpdateComic"
+					"proportionaltoparent"	"1"
+					"command"		"view_update_comic"
+					"actionsignallevel"	"4"
+			
+					"defaultBgColor_override"	"15 15 15 255"
+					"armedBgColor_override"		"25 25 25 255"
+					"depressedBgColor_override"	"25 25 25 255"
+					"defaultFgColor_override"	"TanLight"
+					"armedFgColor_override" 	"TanLight"
+					"depressedFgColor_override" "TanLight"
+					"border_default"			"ButtonHover"
+					"border_armed"				"ButtonHover"
+					"paintbackground"			"1"
+				}
+			}
+
+			"CyclingAd"
+			{
+				"ControlName"			"CCyclingAdContainerPanel"
+				"fieldName"				"CyclingAd"
+				"xpos"					"5"
+				"ypos"					"p0.47"
+				"zpos"					"100"
+				"wide"					"f10"
+				"tall"					"p0.5"
+				"visible"				"1"
+				"enabled"				"1"
+				"scaleImage"			"1"
+				"proportionaltoparent"	"1"
+
+				"bgcolor_override"		"0 0 0 255"
+
+				"items"
+				{
+					"0"
+					{
+						"item"		"Unused Summer 2015 Operation Pass"
+						
+						"wide"		"f0"
+						"tall"		"f0"
+						"proportionaltoparent"	"1"
+						"show_market"	"0"
+					}
+					"1"
+					{
+						"item"		"Operation Summer 2015 Concealed Killer Case"
+						
+						"wide"		"f0"
+						"tall"		"f0"
+						"proportionaltoparent"	"1"
+					}
+					"2"
+					{
+						"item"		"Operation Summer 2015 Powerhouse Case"
+
+						"wide"		"f0"
+						"tall"		"f0"
+						"proportionaltoparent"	"1"
+					}
+					"3"
+					{
+						"item"		"Summer 2015 Operation Key"
+						
+						"wide"		"f0"
+						"tall"		"f0"
+						"proportionaltoparent"	"1"
+						"show_market"	"0"
+					}
+					"4"
+					{
+						"item"		"Taunt: The Boxtrot"
+						
+						"wide"		"f0"
+						"tall"		"f0"
+						"proportionaltoparent"	"1"
+						"show_market"	"0"
+					}
+					"5"
+					{
+						"item"		"Taunt: The Proletariat Showoff"
+						
+						"wide"		"f0"
+						"tall"		"f0"
+						"proportionaltoparent"	"1"
+						"show_market"	"0"
+					}
+					"6"
+					{
+						"item"		"Taunt: Kazotsky Kick"
+						
+						"wide"		"f0"
+						"tall"		"f0"
+						"proportionaltoparent"	"1"
+						"show_market"	"0"
+					}
+				}
+			}
+
+		} // Background
+
+		"NewImage"
+		{
+			"ControlName"			"ImagePanel"
+			"fieldName"				"NewImage"
+			"xpos"					"-60"
+			"ypos"					"-52"
+			"zpos"					"100"
+			"wide"					"80"
+			"tall"					"o1"
+			"visible"				"1"
+			"enabled"				"1"
+			"image"					"new_large"
+			"scaleImage"			"1"
+			"proportionaltoparent"	"1"
+			"mouseinputenabled"		"0"
+
+			"pin_to_sibling"		"Background"
+			"pin_corner_to_sibling"	"PIN_BOTTOMLEFT"
+			"pin_to_sibling_corner"	"PIN_TOPRIGHT"	
+		}
+
+	} // EventPromo
+	
+	"QuestLogButton"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"QuestLogButton"
+		"xpos"			"205"
+		"ypos"			"375"
+		"zpos"			"1"
+		"wide"			"32"
+		"tall"			"32"
+		"autoResize"	"0"
+		"pinCorner"		"3"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		
+		"navUp"			"Notifications_Panel"
+		"navLeft"		"SettingsButton"
+		
+		"NotButton_BG"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"NotButton_BG"
+			"xpos"			"0"
+			"ypos"			"0"
+			"zpos"			"-5"
+			"wide"			"30"
+			"tall"			"30"
+			"visible"		"1"
+			"enabled"		"1"
+			"fillcolor"		"25 25 25 255"
+			"border"		"CyanBorderThick"
+		}
+
+		"SubButton"
+		{
+			"ControlName"	"CExImageButton"
+			"fieldName"		"SubButton"
+			"xpos"			"0"
+			"ypos"			"0"
+			"wide"			"28"
+			"tall"			"28"
+			"autoResize"	"0"
+			"pinCorner"		"3"
+			"visible"		"1"
+			"enabled"		"1"
+			"tabPosition"	"0"
+			"labelText"		"C"
+			"use_proportional_insets" "1"
+			"font"			"latoreg22"
+			"command"		"questlog"
+			"textAlignment"	"center"
+			"dulltext"		"0"
+			"brighttext"	"0"
+			"default"		"1"
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+			"actionsignallevel" "2"
+			"proportionaltoparent"	"1"
+				
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+			"paintbackground"	"0"
+			"paintborder"		"0"
+			"image_drawcolor"	"235 226 202 255"
+			"image_armedcolor"	"255 255 255 255"
+
+			"SubImage"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"SubImage"
+				"xpos"			"cs-0.5"
+				"ypos"			"cs-0.5"
+				"zpos"			"1"
+				"wide"			"f0"
+				"tall"			"f0"
+				"visible"		"0"
+				"enabled"		"0"
+				"scaleImage"	"1"
+				"image"			"button_quests"
+
+				"proportionaltoparent"	"1"
+				"mouseinputenabled"	"0"
+				"keyboardinputenabled" "0"
+			}		
+		}
+		
+		"NotificationsContainer"
+		{
+			"ControlName"	"EditablePanel"
+			"fieldName"		"NotificationsContainer"
+			"xpos"			"rs1"
+			"ypos"			"0"
+			"zpos"			"10"
+			"wide"			"16"
+			"tall"			"16"
+			"visible"		"0"
+			"proportionaltoparent"	"1"
+			"mouseinputenabled"	"0"
+			"keyboardinputenabled" "0"
+
+			"SubImage"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"SubImage"
+				"xpos"			"cs-0.5"
+				"ypos"			"cs-0.5"
+				"zpos"			"3"
+				"wide"			"16"
+				"tall"			"16"
+				"visible"		"1"
+				"enabled"		"1"
+				"image"			"glyph_achievements"
+				"scaleImage"	"1"
+				"drawcolor" "210 125 33 255"
+				"proportionaltoparent"	"1"
+			}				
+		
+			"Notifications_CountLabel"
+			{
+				"ControlName"	"CExLabel"
+				"fieldName"		"Notifications_CountLabel"
+				"font"			"HudFontSmallestBold"
+				"labelText"		"%noticount%"
+				"textAlignment"	"center"
+				"xpos"			"cs-0.5"
+				"ypos"			"cs-0.5"
+				"zpos"			"4"
+				"wide"			"16"
+				"tall"			"16"
+				"autoResize"	"0"
+				"pinCorner"		"0"
+				"visible"		"1"
+				"enabled"		"1"
+				"fgcolor_override"	"255 255 255 255"
+				"proportionaltoparent"	"1"
+			}
+		}
+	}
 
 }

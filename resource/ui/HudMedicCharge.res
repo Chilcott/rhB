@@ -35,13 +35,13 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"fgcolor"		"White"
-		"font"			"ralewayreg40"
+		"font"			"latobold40"
 	}
 	"ChargeLabelShadow"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ChargeLabelShadow"
-		"xpos"			"c57"
+		"xpos"			"c56"
 		"ypos"			"111"
 		"zpos"			"3"
 		"wide"			"100"
@@ -56,7 +56,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"fgcolor"		"Black"
-		"font"			"ralewayreg40"
+		"font"			"latobold40"
 	}
 	"PercentageIcon"
 	{
