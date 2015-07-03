@@ -244,7 +244,7 @@
         // "fogCrosshairSmooth"   - Antialiased, not outlined
         
 
-        "labeltext" "v" //for pics https://dl.dropboxusercontent.com/u/21833101/crosshairsv3.png
+        "labeltext" "y" //for pics https://dl.dropboxusercontent.com/u/21833101/crosshairsv3.png
         //
         // Choose your crosshair
         // 
@@ -432,14 +432,14 @@
         "fieldName"     "HudDemomanCharge"
         "visible"       "1"
         "enabled"       "1"
-        "xpos"          "c-40"
-        "ypos"          "r118"
+        "xpos"          "c-38"
+        "ypos"          "r110"
         "zpos"          "2"
-        "wide"          "100"
+        "wide"          "96"
         "tall"          "10"
         "MeterFG"       "White"
         "MeterBG"       "Gray"
-    }   
+    }    
 
     HudBowCharge
     {
@@ -784,8 +784,8 @@
         "fieldName" "HudDeathNotice"
         "visible" "1"
         "enabled" "1"
-        "xpos"   "120" //r540 335
-        "ypos"   "35"   
+        "xpos"   "222" 
+        "ypos"   "20"   
         "wide"   "628"
         "tall"   "468"
 
@@ -800,8 +800,6 @@
         
         "TeamBlue"      "0 100 240 255"
         "TeamRed"       "240 40 0 255"        
-		//"TeamBlue"      "72 107 160 255"
-        //"TeamRed"       "210 55 56 255"
         "IconColor"     "255 255 255 255"
         "LocalPlayerColor"  "32 32 32 255"
 

@@ -43,6 +43,7 @@ Scheme
 		"LightOrange"		"188 112 0 128"
 		"GoalOrange"		"255 133 0"
 		"TFOrange"			"145 73 59 255"
+		"QuestGold"			"208 147 75 255"
 
 		"White"				"255 255 255 255"
 		"Red"				"192 28 0 140"
@@ -152,7 +153,25 @@ Scheme
 		"QualityColorCompleted"					"134 80 172 255"
 		"QualityColorHaunted"					"56 243 171 255"
 		"QualityColorCollectors"				"170 0 0 255"
+		"QualityColorPaintkitWeapon"			"250 250 250 255"
+ 
+		"ItemRarityDefault"						"131 126 119 255"
+		"ItemRarityCommon"						"176 195 217 255"
+		"ItemRarityUncommon"					"94 152 217 255"
+		"ItemRarityRare"						"75 105 255 255"
+		"ItemRarityMythical"					"136 71 255 255"
+		"ItemRarityLegendary"					"211 44 230 255"
+		"ItemRarityAncient"						"235 75 75 255"
+		
+		"ItemRarityDefault_GreyedOut"			"44 42 40 255"
+		"ItemRarityCommon_GreyedOut"			"59 65 72 255"
+		"ItemRarityUncommon_GreyedOut"			"31 50 72 255"
+		"ItemRarityRare_GreyedOut"				"25 35 85 255"
+		"ItemRarityMythical_GreyedOut"			"45 24 85 255"
+		"ItemRarityLegendary_GreyedOut"			"70 15 77 255"
+		"ItemRarityAncient_GreyedOut"			"78 25 25 255"
 		"QualityColorCollectors_GreyedOut"		"60 0 0 255"
+		"QualityColorPaintkitWeapon_GreyedOut"	"60 60 60 255"
 		
 		"SaleGreen"								"76 107 34 255"
 		
@@ -3175,6 +3194,239 @@ Scheme
 				"antialias"		"1"
 				"custom"		"1" [$OSX]
 			}
+		}
+		"SpectatorVerySmall" //new stuff from update
+		{
+			"1"
+			{
+				"name"		"Verdana"
+				"tall"		"7"
+				"weight"	"400"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		ItemFontAttribSmallv2
+		{
+			"1"
+			{
+				"name"		"Verdana"
+				"tall"		"8"
+				"antialias" "1"
+				"weight"	"500"
+			}
+		}
+		"QuestObjectiveTracker_Desc"
+		{
+			"1"
+			{
+				"name"		"Verdana"
+				"tall"		"7"
+				"weight"	"0"
+				"additive"	"1"
+				"antialias" 	"1"
+			}
+		}
+		"QuestObjectiveTracker_DescGlow"
+		{
+			"1"
+			{
+				"name"		"Verdana"
+				"tall"		"7"
+				"weight"	"0"
+				"antialias" 	"1"
+			}
+		}
+		"QuestObjectiveTracker_DescBlur"
+		{
+			"1"
+			{
+				"name"		"Verdana"
+				"tall"		"7"
+				"weight"	"0"
+				"blur"		"3"
+				"additive"	"1"
+				"antialias" 	"1"
+				"custom"	"1"
+			}
+		}
+		"ItemTrackerScore_InGame"
+		{
+			"1"
+			{
+				"name"		"Verdana"
+				"tall"		"7"
+				"weight"	"0"
+				"antialias" 	"1"
+			}
+		}
+		"QuestFlavorText"
+		{
+			"1"
+			{
+				"name"		"ocra"
+				"tall"		"10"
+				"weight"	"400"
+				"yres"		"480 599"
+				"additive"	"0"
+				"antialias"	"1"
+			}
+			"2"
+			{
+				"name"		"ocra"
+				"tall"		"14"
+				"weight"	"400"
+				"additive"	"0"
+				"yres"		"600 1023"
+				"antialias"	"1"
+			}
+			"3"
+			{
+				"name"		"ocra"
+				"tall"		"18"
+				"weight"	"400"
+				"additive"	"0"
+				"yres"		"1024 6000"
+				"antialias"	"1"
+			}
+		}
+
+		"QuestObjectiveText"
+		{
+			"1"
+			{
+				"name"		"ocra"
+				"tall"		"10"
+				"weight"	"800"
+				"yres"		"480 599"
+				"additive"	"0"
+				"antialias"	"1"
+			}
+			"2"
+			{
+				"name"		"ocra"
+				"tall"		"14"
+				"weight"	"800"
+				"additive"	"0"
+				"yres"		"600 1023"
+				"antialias"	"1"
+			}
+			"3"
+			{
+				"name"		"ocra"
+				"tall"		"18"
+				"weight"	"800"
+				"additive"	"0"
+				"yres"		"1024 6000"
+				"antialias"	"1"
+			}
+		}
+		
+		"QuestLargeText"
+		{
+			"1"
+			{
+				"name"		"ocra"
+				"tall"		"16"
+				"weight"	"400"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+
+		"QuestStickyText"
+		{
+			"1"
+			{
+				"name"		"TF2 Professor"
+				"tall"		"20"
+				"antialias" "1"
+				"custom"		"1" [$OSX]
+				"weight"	"500"
+			}
+		}
+
+		"AdFont_ItemName"
+		{
+			"1"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"10"
+				"weight"	"400"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+ 		
+		"AdFont_AdText"
+		{
+			"1"
+			{
+				"name"		"Verdana"
+				"tall"		"8"
+				"weight"	"400"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"AdFont_PurchaseButton"
+		{
+			"1"
+			{
+				"name"		"Verdana"
+				"tall"		"8"
+				"weight"	"0"
+				"antialias" 	"1"
+			}
+		}
+		// PaintkitWeapon ------------------------------------------------------------------------------------------------
+		BackpackItemBorder_PaintkitWeapon
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			"color"					"QualityColorPaintkitWeapon"
+			
+			"image"					"backpack_rect_color"
+			"src_corner_height"		"24"				// pixels inside the image
+			"src_corner_width"		"24"
+			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"5"	
+		}
+		BackpackItemMouseOverBorder_PaintkitWeapon
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			"color"					"QualityColorPaintkitWeapon"
+			
+			"image"					"backpack_rect_mouseover_color"
+			"src_corner_height"		"24"				// pixels inside the image
+			"src_corner_width"		"24"
+			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"5"	
+		}
+		BackpackItemGreyedOutBorder_PaintkitWeapon
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			"color"					"QualityColorPaintkitWeapon_GreyedOut"
+			
+			"image"					"backpack_rect_color"
+			"src_corner_height"		"24"				// pixels inside the image
+			"src_corner_width"		"24"
+			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"5"	
+		}
+		BackpackItemGreyedOutSelectedBorder_PaintkitWeapon
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			"color"					"QualityColorPaintkitWeaponGreyedOut"
+			
+			"image"					"backpack_rect_mouseover_color"
+			"src_corner_height"		"24"				// pixels inside the image
+			"src_corner_width"		"24"
+			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"5"	
 		}
 		"ScoreboardVerySmall"
 		{
