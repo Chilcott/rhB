@@ -18,13 +18,13 @@
 	{
 		"ControlName"		"Panel"
 		"fieldName"		"TopBar"
-		"xpos"			"0"
+		"xpos"			"9999"
 		"ypos"			"0"
 		"tall"			"0"	
 		"wide"			"f0"
 		"autoResize"		"0"
 		"pinCorner"		"0"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"tabPosition"		"0"
 	}
@@ -32,12 +32,12 @@
 	{
 		"ControlName"	"Frame"
 		"fieldName"		"BottomBar"
-		"xpos"			"0"
+		"xpos"			"9999"
 		"ypos"			"r20"	
 		"tall"			"0"	
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"0"
 		"tabPosition"		"0"
 	}
@@ -46,12 +46,12 @@
 		"ControlName"		"Panel"
 		"fieldName"		"bottombarblank"
 		"xpos"			"0"
-		"ypos"			"r0"	
+		"ypos"			"99999"	
 		"tall"			"0"			// this needs to match the size of BottomBar
 		"wide"			"f0"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"tabPosition"		"0"
 	}

@@ -10,7 +10,7 @@
   {
     "controlName"  "CExLabel"
     "fieldName"     "CrossHairNormal"
-    "visible"    "0" //Seeker's Crosshair with outline
+    "visible"    "1" //Seeker's Crosshair with outline
     "enabled"    "1"
     "zpos"      "1"
     "xpos"      "c-14"
@@ -50,7 +50,7 @@
         "autoResize"    "0"
         "pinCorner"     "0"
         "visible"       "0"
-        "enabled"       "0"
+        "enabled"       "1"
         "fillcolor"     "255 255 255 255"
         "alpha" "255"
     }
@@ -244,7 +244,7 @@
         // "fogCrosshairSmooth"   - Antialiased, not outlined
         
 
-        "labeltext" "y" //for pics https://dl.dropboxusercontent.com/u/21833101/crosshairsv3.png
+        "labeltext" "t" //for pics https://dl.dropboxusercontent.com/u/21833101/crosshairsv3.png
         //
         // Choose your crosshair
         // 

@@ -215,7 +215,8 @@ event HudHealthBonusPulse
 
     Animate PlayerStatusHealthValueCam  FgColor     "BuffedColor"           Accel 0.0 0.0
 
-    Animate PlayerStatusHealthValueSpec     FgColor     "buffed"              Accel 0.0 0.0
+    Animate PlayerStatusHealthValueSpec     FgColor     "HealingNumbers"              Accel 0.0 0.0
+    Animate PlayerStatusHealthValueSpec2     FgColor     "HealingNumbers"              Accel 0.0 0.0
     Animate PlayerStatusHealthValueSpecShadow    FgColor  "BuffedColor"    Linear 0.0 0.0
     Animate PlayerStatusHealthValueTour     FgColor     "BuffedColor"           Accel 0.0 0.0
 
@@ -237,6 +238,7 @@ event HudHealthBonusPulseLoop
     RunEvent PlayerStatusHealthValue 0.0
     RunEvent PlayerStatusHealthValueCam 0.0
     RunEvent PlayerStatusHealthValueSpec 0.0
+    RunEvent PlayerStatusHealthValueSpec2 0.0
     RunEvent PlayerStatusHealthValueTour 0.0
         RunEvent xHairNormal 0.0
         RunEvent xHairRequest 0.0
@@ -251,6 +253,7 @@ event HudHealthBonusPulseStop
     StopEvent PlayerStatusHealthValue 0.0
     StopEvent PlayerStatusHealthValueCam 0.0
     StopEvent PlayerStatusHealthValueSpec 0.0
+    StopEvent PlayerStatusHealthValueSpec2 0.0
     StopEvent PlayerStatusHealthValueTour 0.0
     StopEvent ShadedBarThin 0.0
     StopEvent ShadedBarThinLow 0.0
@@ -270,6 +273,7 @@ event HudHealthBonusPulseStop
         Animate PlayerStatusHealthValueCam  FgColor     "234 234 234 255"       Accel 0.0 0.0
 
         Animate PlayerStatusHealthValueSpec     FgColor     "White"       Accel 0.0 0.0
+        Animate PlayerStatusHealthValueSpec2     FgColor     "White"       Accel 0.0 0.0
         Animate PlayerStatusHealthValueSpecShadow    FgColor  "0 0 0 0"    Linear 0.0 0.0
         Animate PlayerStatusHealthValueTour     FgColor     "234 234 234 255"       Accel 0.0 0.0
 
@@ -298,7 +302,8 @@ event HudHealthDyingPulse
 	Animate PlayerStatusHealthValueSTour     FgColor     "hurt"          Accel 0.0 0.0 //spec health value colour
     Animate PlayerStatusHealthValueCam  FgColor     "hurt"      Accel 0.0 0.0
 
-    Animate PlayerStatusHealthValueSpec     FgColor     "hurt"          Accel 0.0 0.0
+    Animate PlayerStatusHealthValueSpec     FgColor     "hurtd"          Accel 0.0 0.0
+	Animate PlayerStatusHealthValueSpec2     FgColor     "hurt"          Accel 0.0 0.0
     Animate PlayerStatusHealthValueSpecShadow    FgColor  "LowColor"    Linear 0.0 0.0
     Animate PlayerStatusHealthValueTour     FgColor     "LowColor"      Accel 0.0 0.0
 
@@ -320,6 +325,7 @@ event HudHealthDyingPulseLoop
     RunEvent PlayerStatusHealthValue 0.0
     RunEvent PlayerStatusHealthValueCam 0.0
     RunEvent PlayerStatusHealthValueSpec 0.0
+    RunEvent PlayerStatusHealthValueSpec2 0.0
     RunEvent PlayerStatusHealthValueTour 0.0
     RunEvent xHairNormal 0.0
     RunEvent xHairRequest 0.0
@@ -334,6 +340,7 @@ event HudHealthDyingPulseStop
     StopEvent PlayerStatusHealthValue 0.0
     StopEvent PlayerStatusHealthValueCam 0.0
     StopEvent PlayerStatusHealthValueSpec 0.0
+    StopEvent PlayerStatusHealthValueSpec2 0.0
     StopEvent PlayerStatusHealthValueTour 0.0
     StopEvent ShadedBarThin 0.0
     StopEvent ShadedBarThinLow 0.0
@@ -353,6 +360,7 @@ event HudHealthDyingPulseStop
     Animate PlayerStatusHealthValueCam  FgColor     "234 234 234 255"       Accel 0.0 0.0
 
     Animate PlayerStatusHealthValueSpec     FgColor     "White"           Accel 0.0 0.0
+    Animate PlayerStatusHealthValueSpec2    FgColor     "White"           Accel 0.0 0.0
     Animate PlayerStatusHealthValueSpecShadow    FgColor  "0 0 0 0"    Linear 0.0 0.0
     Animate PlayerStatusHealthValueTour     FgColor     "234 234 234 255"       Accel 0.0 0.0
 

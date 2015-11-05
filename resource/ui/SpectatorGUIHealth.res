@@ -112,10 +112,10 @@
 		"fillcolor"		"BuffedColor"
 		"PaintBackgroundType"	"0"
 	}
-	"PlayerStatusHealthValueSpec"
+	"PlayerStatusHealthValueSpec2"
 	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"PlayerStatusHealthValueSpec"
+		"fieldName"		"PlayerStatusHealthValueSpec2"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"5"
