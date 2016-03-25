@@ -26,7 +26,7 @@
 	{
 		"controlName"	"CExLabel"
 		"fieldName"	 	"xHair" //Fluxhud changeover (for Yui)
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"zpos"			"1"
 		"xpos"			"c-10"
