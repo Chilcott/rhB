@@ -22,19 +22,25 @@ Scheme
 		//Damage Colors
 			"DamageFloating"	"234 234 234 255"
 			"DamageStatic"		"234 234 234 255"
-			"hurtd"			"255 0 119 255" //my pink
+			"hurtd"			"255 34 34 255" //my pink
 			"hurt"			"255 51 51 255" //confusing red
 			"LowColor"			"255 200 30 255" //Yellow
 			"OmpHPLow"			"255 200 30 255" //Yucky yellow
 			"DamageNumbers"		"255 255 0 255"
 
-		//Health Colors
+		//Buffed Colors
 			"Buffedd"		"119 255 0 255" //my green
 			"Buffed"		"0 156 255 255" //confusing blue
 			"BuffedColor"		"125 225 30 255" 
 			"OmpHPBuff"			"125 225 30 255" //Light green
 			"HealingNumbers"	"0 255 127 255"
+			"ChargeGreen"		"100 220 0 255"
 
+		//HUD Colours
+			"SpecBlue"		"0 156 240 255"     //Spec Line colour
+			"SpecRed"			"240 51 51 255" //Spec Line Colour
+			"BlueShade"			"0 100 200 100"
+		
 		
 		// Base Colors 
 
@@ -4168,6 +4174,27 @@ Scheme
 				"outline"	"1"
 			}
 		}
+		"latoreg6"
+		{
+			"1"
+			{
+				"name"		"lato regular"
+				"tall"		"6"
+				"antialias" "1"
+				"additive"	"0"
+			}
+		}	
+		"latoreg8"
+		{
+			"1"
+			{
+				"name"		"lato regular"
+				"tall"		"8"
+				"tall"		"8"
+				"antialias" "1"
+				"additive"	"0"
+			}
+		}	
 		"latoreg10"
 		{
 			"1"
@@ -4997,24 +5024,28 @@ Scheme
 		TFFatLineBorderRedBG
 		{
 			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
+			"backgroundtype"		"1"
 			
 			"image"					"../hud/color_panel_red"
-			"src_corner_height"		"23"				// pixels inside the image
-			"src_corner_width"		"23"
+			"src_corner_height"		"10"				// pixels inside the image
+			"src_corner_width"		"10"
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"0"	
+			"color"		"0 0 0 100" //overlays on the bg
+			"PaintBackgroundType"	"1"
 		}
-		TFFatLineBorderBlueBG
+		TFFatLineBorderBlueBG //spechud shit
 		{
 			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
+			"backgroundtype"		"1"
 			
 			"image"					"../hud/color_panel_blu"
-			"src_corner_height"		"23"				// pixels inside the image
-			"src_corner_width"		"23"
+			"src_corner_height"		"10"				// pixels inside the image
+			"src_corner_width"		"10"
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"0"	
+			"color"		"0 0 0 100" //overlays on the bg
+			"PaintBackgroundType"	"1"
 		}
 
 		ToolTipBorder

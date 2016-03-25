@@ -26,7 +26,7 @@
 	{
 		"controlName"	"CExLabel"
 		"fieldName"	 	"xHair" //Fluxhud changeover (for Yui)
-		"visible"		"0"
+		"visible"		"1"
 		"enabled"		"1"
 		"zpos"			"1"
 		"xpos"			"c-10"
@@ -50,7 +50,7 @@
         "autoResize"    "0"
         "pinCorner"     "0"
         "visible"       "0"
-        "enabled"       "0"
+        "enabled"       "1"
         "fillcolor"     "255 255 255 255"
         "alpha" "255"
     }
@@ -244,7 +244,7 @@
         // "fogCrosshairSmooth"   - Antialiased, not outlined
         
 
-        "labeltext" "y" //for pics https://dl.dropboxusercontent.com/u/21833101/crosshairsv3.png
+        "labeltext" "t" //for pics https://dl.dropboxusercontent.com/u/21833101/crosshairsv3.png
         //
         // Choose your crosshair
         // 
@@ -401,6 +401,16 @@
         "tall"          "10"
     }
     
+	HudSpectatorExtras
+	{
+		"fieldName" "HudSpectatorExtras"
+		"visible" "1"
+		"enabled" "1"
+		"xpos"	"0"
+		"ypos"	"0"
+		"wide"	"f0"
+		"tall"	"f0"
+	}
     HudMedicCharge
     {
         "fieldName"     "HudMedicCharge"
