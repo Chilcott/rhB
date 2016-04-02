@@ -10,7 +10,7 @@
   {
     "controlName"  "CExLabel"
     "fieldName"     "CrossHairNormal"
-    "visible"    "0" //Seeker's Crosshair with outline
+    "visible"    "1" //Seeker's Crosshair with outline
     "enabled"    "1"
     "zpos"      "1"
     "xpos"      "c-14"
@@ -342,7 +342,40 @@
 //#END OF CROSSHAIRS#
 //###################
 //
-    HudPlayerStatus
+    HudMatchStatus
+    {
+        "fieldName"             "HudMatchStatus"
+        "visible"               "1"
+        "enabled"               "1"
+        "xpos"                  "0"
+        "ypos"                  "0"
+        "zpos"                  "2"
+        "wide"                  "f0"
+        "tall"                  "f0"
+    }
+ 
+    HudTeamStatus
+    {
+        "fieldName"             "HudTeamStatus"
+        "visible"               "1"
+        "enabled"               "1"
+        "xpos"                  "0"
+        "ypos"                  "0"
+        "zpos"                  "2"
+        "wide"                  "f0"
+        "tall"                  "f0"
+    }
+	MatchSummary
+	{
+	"fieldName" "MatchSummary"
+	"visible" "0"
+	"enabled" "1"
+	"xpos"	"0"
+	"ypos"	"0"
+	"wide"	"f0"
+	"tall"	"f0"
+	}
+	HudPlayerStatus
     {
         "fieldName" "HudPlayerStatus"
         "visible" "1"
